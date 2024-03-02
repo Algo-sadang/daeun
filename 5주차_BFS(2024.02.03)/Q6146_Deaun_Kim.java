@@ -15,7 +15,7 @@ public class Q6146_Deaun_Kim {
         for (int i = 0; i < n; i++) {
             graph[scanner.nextInt()+500][scanner.nextInt()+500] = -1;
         }
-        
+
         Queue<int[]> queue = new LinkedList<>();
         queue.offer(new int[]{500, 500});
         int[][] visited = new int[1002][1002];
